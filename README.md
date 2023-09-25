@@ -16,8 +16,14 @@ The <i>material or Lagrangian coordinate</i> is the position vector in the origi
 
 The <i>spatial or Eulerian coordinate</i> is the position vector of the same material point in a deformed configuration and is denoted <b>x</b>.
 
-The mapping between <b>X</b> and <b>x</b> is called phi, and is given by
+The mapping between <b>X</b> and <b>x</b> is called Φ, and is given by
 
-<b>x</b> = phi(<b>X</b>, t)
+<b>x</b> = Φ(<b>X</b>, t)
 
 ![00_lagrangian_and_eulerian_coordinates](00_lagrangian_and_eulerian_coordinates.png?raw=true "00_lagrangian_and_eulerian_coordinates")
+
+## Deformation Gradient
+
+The Jacobian of the deformation mapping Φ is given by <b>F</b>(<b>X</b>, t). It encodes the deformation at the material point originating at <b>X</b>, and the determinate of <b>F</b> is given by J and describes the change in volume at that material point. J > 1 means volume increase and J < 1 means decrease.
+
+![04_deformation_gradient_tensor.png](04_deformation_gradient_tensor.png?raw=true "04_deformation_gradient_tensor")
